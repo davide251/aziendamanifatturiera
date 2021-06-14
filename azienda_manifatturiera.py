@@ -37,8 +37,8 @@ class modello():
      
        
         prodotto=Catalogo()
-        prodotto1.modello("xsd","tyyt","dipartimento a")
-        prodotto2.modello("xpd","tyyt","dipartimento b")
+        prodotto1.modello("xsd","tyyt","dipartimento1")
+        prodotto2.modello("xpd","tyyt","dipartimento2")
         prodotto.aggiungi_modello(prodotto)
         prodotto.stampa_Catalogo()
 
