@@ -36,11 +36,11 @@ class modello():
                 modello.stampa_info()
      
        
-        generale=Catalogo("generale")
+        prodotto=Catalogo()
         prodotto1.modello("xsd","tyyt","dipartimento a")
         prodotto2.modello("xpd","tyyt","dipartimento b")
-        generale.aggiungi_modello(generale)
-        generale.stampa_Catalogo()
+        prodotto.aggiungi_modello(prodotto)
+        prodotto.stampa_Catalogo()
 
 
 
