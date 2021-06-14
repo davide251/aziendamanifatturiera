@@ -44,5 +44,8 @@ class Catalogo():
                 for row in self.cursore.fetchall():
                   print(row)
     
-
-    
+    prodotto=Catalogo(curs)
+    prodotto1.modello("xsd","tyyt","dipartimento a")
+    prodotto2.modello("xpd","tyyt","dipartimento b")
+    prodotto.aggiungi_modello(prodotto)
+    prodotto.stampa_Catalogo()
